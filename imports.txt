@@ -1,0 +1,16 @@
+- Bootstrap:
+https://getbootstrap.com/
+npm i bootstrap@5.2.3
+import 'bootstrap/dist/css/bootstrap.min.css'
+
+- Reactstrap:
+https://reactstrap.github.io/
+npm install reactstrap react react-dom
+npm install --save bootstrap
+import { } from 'reactstrap'
+
+- ReactRouter:
+https://reactrouter.com/
+npm install react-router-dom
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { NavLink } from "react-router-dom"

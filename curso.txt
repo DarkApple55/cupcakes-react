@@ -8,15 +8,15 @@ A5.2 - Integrando EDgrid al proyecto
 A5.3 - Componente presentacional Header
 A5.4 - Estructura de carpetas para componentes
 A5.5 - Creando componentes de páginas
-
-- - - - - - - - - - - - - -
-
 A5.6 - Usando react router
+A5.7 - Componentes Switch y Route
 
 - - - - - - - - - - - - - -
 
-A5.7 - Componentes Switch y Route
 A5.8 - Componente Link
+
+- - - - - - - - - - - - - -
+
 A5.9 - Componente NavLink y hooks de react router
 A6.1 - Usando mocks y API con JSON server
 A6.2 - Preparando mi componente reutilizable
