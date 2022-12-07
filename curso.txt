@@ -1,0 +1,34 @@
+ ~ ~ ~ ~ ~ VISTOS ~ ~ ~ ~ ~
+
+A2.x - Mi primera App
+A3.x - Componentes
+A4.x - Componentes funcionales y los hooks
+A5.1 - Iniciando y limpiando un proyecto nuevo
+A5.2 - Integrando EDgrid al proyecto
+A5.3 - Componente presentacional Header
+A5.4 - Estructura de carpetas para componentes
+
+- - - - - - - - - - - - - -
+
+A5.5 - Creando componentes de páginas
+
+- - - - - - - - - - - - - -
+
+A5.6 - Usando react router
+A5.7 - Componentes Switch y Route
+A5.8 - Componente Link
+A5.9 - Componente NavLink y hooks de react router
+A6.1 - Usando mocks y API con JSON server
+A6.2 - Preparando mi componente reutilizable
+A6.3 - Peticiones HTTP con Fetch API
+A6.4 - Renderizando contenido desde una API
+A6.5 - Utilizando variables de entorno
+A6.6 - Escuchando cambios en la petición y manejando errores
+A6.7 - Peticiones HTTP con AXIOS
+A7.1 - Duplicando código innecesariamente
+A7.2 - Creando nuestro propio hook
+A7.3 - Utilizando nuestro propio hook
+A7.4 - Manejo de errores con hook
+A7.5 - Prop Types
+A7.6 - Default props
+A7.7 - Build y deploy
