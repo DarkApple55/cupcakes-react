@@ -1,0 +1,47 @@
+{
+    "Cupcakes": [
+        {
+            "id": 1,
+            "sabor": "Vainilla",
+            "color": "Amarillo",
+            "descripcion": "Cupcake de vainilla clásico!",
+            "precio": 20
+        },{
+            "id": 2,
+            "sabor": "Chocolate",
+            "color": "Marron",
+            "descripcion": "Cupcake choco pequeño",
+            "precio": 10
+        },{
+            "id": 3,
+            "sabor": "Frutilla",
+            "color": "Rosa",
+            "descripcion": "Cupcake de frutilla rico pero caro",
+            "precio": 35
+        },{
+            "id": 4,
+            "sabor": "Vainilla",
+            "color": "Amarillo",
+            "descripcion": "Cupcake de vainilla clásico!",
+            "precio": 20
+        },{
+            "id": 5,
+            "sabor": "Chocolate",
+            "color": "Marron",
+            "descripcion": "Cupcake choco pequeño",
+            "precio": 10
+        },{
+            "id": 6,
+            "sabor": "Frutilla",
+            "color": "Rosa",
+            "descripcion": "Cupcake de frutilla rico pero caro",
+            "precio": 35
+        },{
+            "id": 7,
+            "sabor": "Vainilla",
+            "color": "Amarillo",
+            "descripcion": "Cupcake de vainilla clásico!",
+            "precio": 20
+        }
+    ]
+}

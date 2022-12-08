@@ -1,0 +1,49 @@
+.Cupcake-header{
+    border: #3C4048 4px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: #00ABB3;
+    color: black;
+}
+.Cupcake-img{
+    height: 7rem;
+    margin: auto;
+}
+.Cupcake-title{
+    display: flex;
+    justify-content: center;
+}
+.Cupcake-footer{
+    display: flex;
+    margin: 1rem;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin: 0;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-end-end-radius: 6px;
+    border-end-start-radius: 6px;
+}
+
+.Cupcake-button{
+    cursor: pointer;
+}
+.Cupcake-button-disabled{
+    cursor: not-allowed;
+}
+.Cupcake-button, .Cupcake-button-disabled{
+    background:rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.Cupcake-button:hover {
+    background: #3C4048;
+    color: #00ABB3;
+}
+.img-vendido{
+    filter: grayscale(1);
+}
