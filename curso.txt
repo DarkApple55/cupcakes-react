@@ -16,14 +16,14 @@ A6.1 - Usando mocks y API con JSON server
 A6.2 - Preparando mi componente reutilizable
 A6.3 - Peticiones HTTP con Fetch API
 A6.4 - Renderizando contenido desde una API
-
-- - - - - - - - - - - - - -
-
 A6.5 - Utilizando variables de entorno
 
 - - - - - - - - - - - - - -
 
 A6.6 - Escuchando cambios en la petición y manejando errores
+
+- - - - - - - - - - - - - -
+
 A6.7 - Peticiones HTTP con AXIOS
 A7.1 - Duplicando código innecesariamente
 A7.2 - Creando nuestro propio hook

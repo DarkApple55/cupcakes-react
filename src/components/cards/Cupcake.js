@@ -28,11 +28,11 @@ const Cupcake = ({color, sabor, descripcion, precio, id}) => {
                 <p><b>Descripción:</b> {descripcion}</p>
             </div>
             <div className="Cupcake-footer">
-                {reservado && <button className="Cupcake-button-disabled" disabled>Reservar</button>}
                 {!reservado && <button className="Cupcake-button" onClick={reservar}>Reservar</button>}
+                {reservado && <button className="Cupcake-button-disabled" disabled>Reservar</button>}
 
-                {vendido && <button className="Cupcake-button-disabled" disabled>Comprar</button>}
                 {!vendido && <button className="Cupcake-button" onClick={vender}>Comprar</button>}
+                {vendido && <button className="Cupcake-button-disabled" disabled>Comprar</button>}
             </div>
         </div>
     )
