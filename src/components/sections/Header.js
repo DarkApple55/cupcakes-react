@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom"
 
 const Header = () => {
   return(
-  <nav className="navbar navbar-expand-lg bg-light Header-header">
+  <nav className="navbar navbar-expand-lg bg-light Header-header fixed-top">
     <div className="container-fluid Header-container">
       {/* <NavLink className="navbar-brand" to="/">Inicio</NavLink> */}
       <div className="collapse navbar-collapse">

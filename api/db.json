@@ -42,6 +42,12 @@
             "color": "Amarillo",
             "descripcion": "Cupcake de vainilla clásico!",
             "precio": 20
+        },{
+            "id": 8,
+            "sabor": "Frutilla",
+            "color": "Rosa",
+            "descripcion": "Cupcake de frutilla rico pero caro",
+            "precio": 35
         }
     ]
 }

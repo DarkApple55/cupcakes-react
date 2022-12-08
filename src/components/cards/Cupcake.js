@@ -17,14 +17,15 @@ const Cupcake = ({color, sabor, descripcion, precio, id}) => {
 
     return(
         <div className="Cupcake-header">
-            <img ref={imgCupcake} src={foto} alt={sabor} className="Cupcake-img"/>
-            <h2 className="Cupcake-title">Cupcake {id}</h2>
+            <div className="img-title">
+                <img ref={imgCupcake} src={foto} alt={sabor} className="Cupcake-img"/>
+                <h2 className="Cupcake-title">Cupcake {id}</h2>
+            </div>
             <div style={{marginLeft: "1rem"}}>
                 <p><b>Sabor:</b> {sabor}</p>
                 <p><b>Color:</b> {color}</p>
                 <p><b>Precio:</b> {precio}</p>
-                <p><b>Descripción:</b></p>
-                <p>{descripcion}</p>
+                <p><b>Descripción:</b> {descripcion}</p>
             </div>
             <div className="Cupcake-footer">
                 {reservado && <button className="Cupcake-button-disabled" disabled>Reservar</button>}

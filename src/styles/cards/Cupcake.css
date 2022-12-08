@@ -4,17 +4,18 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    width: 25rem;
     background-color: #00ABB3;
-    color: black;
 }
 .Cupcake-img{
     height: 7rem;
-    margin: auto;
+    /* margin: auto; */
 }
 .Cupcake-title{
     display: flex;
-    justify-content: center;
+    width: 100%;
+    justify-content: flex-start;
+    margin-top: 0.5rem;
 }
 .Cupcake-footer{
     display: flex;
@@ -46,4 +47,8 @@
 }
 .img-vendido{
     filter: grayscale(1);
+}
+.img-title{
+    display: flex;
+    flex-direction: row;
 }
