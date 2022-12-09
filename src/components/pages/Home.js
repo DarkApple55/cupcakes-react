@@ -1,17 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "../../styles/pages/Home.css"
+import Banner from "../sections/Banner"
 import Cupcakes from "./Cupcakes"
-
-const banner = "https://venngage-wordpress.s3.amazonaws.com/uploads/2018/05/youtube-banner-2.png"
+import Servicios from "../sections/Servicios"
 
 const Home = () => {
 
   return(
     <>
-      <div className="container-fluid">
-          <img className="Home-img" src={banner} alt="img"/>
-      </div>
-      <Cupcakes sabor="frutilla"/>
+      <Banner/>
+      <Servicios />
+      <Cupcakes peticion="/Cupcakes?sabor_like=frutilla"/>
     </>
   )
 }

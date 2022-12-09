@@ -14,6 +14,7 @@ https://reactrouter.com/
 npm install react-router-dom
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
  - JSON Server:
 https://www.npmjs.com/package/json-server
@@ -25,3 +26,7 @@ Por defecto se ejecuta en el puerto 3000, así que hay q ponerle otro
 Habilitar permisos:
 Ejecutar en Windos Powershell como admin: 
 1. Get-ExecutionPolicy -list 2. Set-ExecutionPolicy RemoteSigned -Force
+
+ - Axios (no lo uso):
+ https://axios-http.com/docs/intro
+ npm install axios

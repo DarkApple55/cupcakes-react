@@ -49,5 +49,20 @@
             "descripcion": "Cupcake de frutilla rico pero caro",
             "precio": 35
         }
+    ],
+    "Servicios": [
+        {
+            "id": 1,
+            "nombre": "Curso de respostería",
+            "descripcion": "Hacer Cupcakes desde cero"
+        },{
+            "id": 2,
+            "nombre": "Delivery",
+            "descripcion": "Cupcakes hasta tu casa"
+        },{
+            "id": 3,
+            "nombre": "Reseta Fácil",
+            "descripcion": "Un cupcake en 5 minutos"
+        }
     ]
 }

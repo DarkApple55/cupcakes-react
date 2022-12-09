@@ -1,0 +1,31 @@
+.cards-container{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.card{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: #00ABB3 4px solid;
+    border-radius: 10px;
+    background-color: #3C4048;
+    color: #00ABB3;
+}
+.card-header{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.Servicios-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+}
