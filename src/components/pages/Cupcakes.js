@@ -12,8 +12,9 @@ const Cupcakes = ({peticion = "/Cupcakes"}) => {
     return data
   }
   
-  const [Cupcakes, setCupcakes] = useState([])
+  const [Cupcakes, setCupcakes] = useState([]) // parámetro:  valor inicial
   useEffect(() => {db_GetCupcakes(peticion).then(data => setCupcakes(data)).catch(err => console.log(err))}, [peticion])
+  // se ejecuta la función (parámetro 1) cada vez que se modifica el valor del 2do. poner [] = solo se ejecute al principio
 
   return(
     <header className='Cupcakes-header'>

@@ -10,7 +10,7 @@ const Servicios = ({peticion = "/Servicios"}) => {
         const data = await response.json()
         return data
     }
-
+    
     const [Servicios, setServicios] = useState([])
     useEffect(() => { db_GetServicios(peticion).then(data => setServicios(data)).catch(err => console.log(err)) }, [peticion])
 
