@@ -1,15 +1,13 @@
 import foto from "../../recouses/img/cupcake.png"
 import "../../styles/cards/Cupcake.css"
-import { useState, useRef } from "react";
-import { number } from 'prop-types';
-import axios from "axios";
+import { useRef } from "react";
 
 const Cupcake = ({ cupcake, updateCupcake, ...props }) => {
     const imgCupcake = useRef()
     const vender = () => {        
         cupcake.vendido = true
         updateCupcake(cupcake)
-        imgCupcake.current.classList.add("img-vendido")
+        // imgCupcake.current.classList.add("img-vendido")
     }
 
     return (

@@ -6,7 +6,7 @@
       "color": "Amarillo",
       "descripcion": "Cupcake de vainilla clásico!",
       "precio": 20,
-      "vendido": true
+      "vendido": false
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "color": "Marron",
       "descripcion": "Cupcake choco pequeño",
       "precio": 10,
-      "vendido": true
+      "vendido": false
     },
     {
       "id": 3,
