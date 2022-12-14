@@ -1,5 +1,7 @@
  ~ ~ ~ ~ ~ VISTOS ~ ~ ~ ~ ~
 
+CURSO: React desde cero (2021)
+
 A2.x - Mi primera App
 A3.x - Componentes
 A4.x - Componentes funcionales y los hooks
