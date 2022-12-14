@@ -1,4 +1,3 @@
-import "bootstrap/dist/css/bootstrap.min.css"
 import "../../styles/sections/Header.css"
 import { NavLink } from "react-router-dom"
 

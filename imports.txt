@@ -27,6 +27,14 @@ Habilitar permisos:
 Ejecutar en Windos Powershell como admin: 
 1. Get-ExecutionPolicy -list 2. Set-ExecutionPolicy RemoteSigned -Force
 
- - Axios (no lo uso):
- https://axios-http.com/docs/intro
- npm install axios
+ - Axios (sirve para PUT, etc.): 
+https://axios-http.com/docs/intro
+npm install axios
+import axios from "axios";
+
+ - Prop Types (no me gusta mucho):
+https://www.npmjs.com/package/prop-types
+npm install --save prop-types
+import PropTypes from 'prop-types';
+Ej.: Cupcake.propTypes = { precio: PropTypes.number, id: PropTypes.number }
+Tipos: func, object, array, string, number, bool (más en el link)

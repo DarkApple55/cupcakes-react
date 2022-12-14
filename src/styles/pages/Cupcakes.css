@@ -1,5 +1,9 @@
 .Cupcakes-header{
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .Cupcakes-titles{
     display: flex;
@@ -8,6 +12,12 @@
     font-size: calc(10px + 2vmin);
     text-transform: uppercase;
 }
+.Cupcakes-button{
+    display: flex;
+    justify-content: center;
+    min-width: 15rem;
+}
+
 .Cupcakes-list{
     margin: 1rem;
     display: flex;

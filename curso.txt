@@ -20,15 +20,14 @@ A6.5 - Utilizando variables de entorno
 A6.6 - Escuchando cambios en la petición y manejando errores
 A6.7 - Peticiones HTTP con AXIOS
 A7.1 - Duplicando código innecesariamente
-
-- - - - - - - - - - - - - -
-
 A7.2 - Creando nuestro propio hook
-
-- - - - - - - - - - - - - -
-
 A7.3 - Utilizando nuestro propio hook
 A7.4 - Manejo de errores con hook
 A7.5 - Prop Types
 A7.6 - Default props
+
+- - - - - - - - - - - - - -
+
 A7.7 - Build y deploy
+
+- - - - - - - - - - - - - -

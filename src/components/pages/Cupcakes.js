@@ -1,30 +1,57 @@
-import "bootstrap/dist/css/bootstrap.min.css"
 import "../../styles/pages/Cupcakes.css"
-import { useEffect, useState } from "react"
+// import "@styles/pages/Cupcakes.css"
 import Cupcake from "../cards/Cupcake"
+import useFetch from "hooks/useFetchGet"
+import { useState } from "react"
+import { Link } from "react-router-dom"
 
-const Cupcakes = ({peticion = "/Cupcakes"}) => {
+const Cupcakes = ({ peticion = "/Cupcakes" }) => {
 
-  // fetch("http://localhost:3001/Cupcakes").then(response => response.json()).then(data => setCupcakes(data))
-  const db_GetCupcakes = async request => {
-    const response = await fetch(`${process.env.REACT_APP_URL_API}${request}`)
-    const data = await response.json()
-    return data
+  const [listaCupcakes, useFetchError] = useFetch(peticion)
+  const [cupcakes, setCupcakes] = useState(listaCupcakes)
+
+  const ventaLista = () => { // no funciona todavía
+    for (let c of cupcakes) {
+      if(c.vendido) {
+        c.vendido = true
+        db_PutData(peticion, c)
+      }
+    }
   }
-  
-  const [Cupcakes, setCupcakes] = useState([]) // parámetro:  valor inicial
-  useEffect(() => {db_GetCupcakes(peticion).then(data => setCupcakes(data)).catch(err => console.log(err))}, [peticion])
-  // se ejecuta la función (parámetro 1) cada vez que se modifica el valor del 2do. poner [] = solo se ejecute al principio
 
-  return(
+  //#region "update capkes"
+  const db_PutData = async (request, cupcake) => {
+    const response = await fetch(`${process.env.REACT_APP_URL_API}${request}`, {
+      method: "PUT",
+      headers: { 'Content-type': 'application/json' },
+      body: JSON.stringify(cupcake)
+    })
+  }
+
+  const updateCupcake = (cupcake) => {
+    setCupcakes([...cupcakes, cupcake])
+    db_PutData(`/Cupcakes/${cupcake.id}`, cupcake)
+  }
+  //#endregion "update capkes"
+
+  //#region "html"
+  const html_listaCupcakes = () => {
+    if (useFetchError) return <span>Hubo un error</span>
+    else if (!cupcakes) return <span>No hay servicios destacados por el momento</span>
+    return listaCupcakes.map(cupcake => (
+      <Cupcake key={cupcake.id} cupcake={cupcake} updateCupcake={updateCupcake} />
+    ))
+  }
+  //#endregion "html"
+
+  return (
     <header className='Cupcakes-header'>
       <div className='Cupcakes-titles'>
-        <h1>Lista de Cupcakes {peticion ? (<>SABOR FRUTILLA</>) : (<></>)}</h1>
+        <h1>Lista de Cupcakes {peticion.split('=')[1] ? (<>SABOR {peticion.split('=')[1]}</>) : (<></>)}</h1>
       </div>
+      <Link href="/" className="btn btn-primary Cupcakes-button" onClick={ventaLista}>Todos a la venta</Link>
       <section className='Cupcakes-list'>
-        {Cupcakes[0] ? (Cupcakes.map(({color, sabor, descripcion, precio, id}) => (
-            <Cupcake key={id} color={color} sabor={sabor} descripcion={descripcion} precio={precio} id={id} />
-          ) )) : (<span>Cargando...</span>)}
+        {html_listaCupcakes()}
       </section>
     </header>
   )

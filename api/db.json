@@ -1,68 +1,85 @@
 {
-    "Cupcakes": [
-        {
-            "id": 1,
-            "sabor": "Vainilla",
-            "color": "Amarillo",
-            "descripcion": "Cupcake de vainilla clásico!",
-            "precio": 20
-        },{
-            "id": 2,
-            "sabor": "Chocolate",
-            "color": "Marron",
-            "descripcion": "Cupcake choco pequeño",
-            "precio": 10
-        },{
-            "id": 3,
-            "sabor": "Frutilla",
-            "color": "Rosa",
-            "descripcion": "Cupcake de frutilla rico pero caro",
-            "precio": 35
-        },{
-            "id": 4,
-            "sabor": "Vainilla",
-            "color": "Amarillo",
-            "descripcion": "Cupcake de vainilla clásico!",
-            "precio": 20
-        },{
-            "id": 5,
-            "sabor": "Chocolate",
-            "color": "Marron",
-            "descripcion": "Cupcake choco pequeño",
-            "precio": 10
-        },{
-            "id": 6,
-            "sabor": "Frutilla",
-            "color": "Rosa",
-            "descripcion": "Cupcake de frutilla rico pero caro",
-            "precio": 35
-        },{
-            "id": 7,
-            "sabor": "Vainilla",
-            "color": "Amarillo",
-            "descripcion": "Cupcake de vainilla clásico!",
-            "precio": 20
-        },{
-            "id": 8,
-            "sabor": "Frutilla",
-            "color": "Rosa",
-            "descripcion": "Cupcake de frutilla rico pero caro",
-            "precio": 35
-        }
-    ],
-    "Servicios": [
-        {
-            "id": 1,
-            "nombre": "Curso de respostería",
-            "descripcion": "Hacer Cupcakes desde cero"
-        },{
-            "id": 2,
-            "nombre": "Delivery",
-            "descripcion": "Cupcakes hasta tu casa"
-        },{
-            "id": 3,
-            "nombre": "Reseta Fácil",
-            "descripcion": "Un cupcake en 5 minutos"
-        }
-    ]
+  "Cupcakes": [
+    {
+      "id": 1,
+      "sabor": "Vainilla",
+      "color": "Amarillo",
+      "descripcion": "Cupcake de vainilla clásico!",
+      "precio": 20,
+      "vendido": true
+    },
+    {
+      "id": 2,
+      "sabor": "Chocolate",
+      "color": "Marron",
+      "descripcion": "Cupcake choco pequeño",
+      "precio": 10,
+      "vendido": true
+    },
+    {
+      "id": 3,
+      "sabor": "Frutilla",
+      "color": "Rosa",
+      "descripcion": "Cupcake de frutilla rico pero caro",
+      "precio": 35,
+      "vendido": false
+    },
+    {
+      "id": 4,
+      "sabor": "Vainilla",
+      "color": "Amarillo",
+      "descripcion": "Cupcake de vainilla clásico!",
+      "precio": 20,
+      "vendido": false
+    },
+    {
+      "id": 5,
+      "sabor": "Chocolate",
+      "color": "Marron",
+      "descripcion": "Cupcake choco pequeño",
+      "precio": 10,
+      "vendido": false
+    },
+    {
+      "id": 6,
+      "sabor": "Frutilla",
+      "color": "Rosa",
+      "descripcion": "Cupcake de frutilla rico pero caro",
+      "precio": 35,
+      "vendido": false
+    },
+    {
+      "id": 7,
+      "sabor": "Vainilla",
+      "color": "Amarillo",
+      "descripcion": "Cupcake de vainilla clásico!",
+      "precio": 20,
+      "vendido": false
+    },
+    {
+      "id": 8,
+      "sabor": "Frutilla",
+      "color": "Rosa",
+      "descripcion": "Cupcake de frutilla rico pero caro",
+      "precio": 35,
+      "vendido": false
+    }
+  ],
+  "Servicios": [
+    {
+      "id": 1,
+      "nombre": "Curso de respostería",
+      "descripcion": "Hacer Cupcakes desde cero"
+    },
+    {
+      "id": 2,
+      "nombre": "Delivery",
+      "descripcion": "Cupcakes hasta tu casa"
+    },
+    {
+      "id": 3,
+      "nombre": "Reseta Fácil",
+      "descripcion": "Un cupcake en 5 minutos"
+    }
+  ]
 }
